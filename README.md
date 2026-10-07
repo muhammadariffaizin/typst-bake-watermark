@@ -15,6 +15,13 @@ In your Typst document, you can use the package as follows:
 #bake-img("input.png", watermark-text: "PROPERTY OF ACME", opacity: 100, width: 50%)
 ```
 
+## Example
+See the package in action:
+
+| Input Image | Output Image (Watermarked) |
+|-------------|----------------------------|
+| ![Input](assets/input.png) | ![Output](assets/output.png) |
+
 ## Project Structure
 - `src/lib.typ`: Typst interface for the package
 - `src/bake_watermark.wasm`: Compiled WASM plugin
@@ -23,6 +30,7 @@ In your Typst document, you can use the package as follows:
 - `src/input.png`: Sample input image
 - `src/main.pdf`: Generated output PDF with watermarked image
 - `src/main.typ`: Example Typst document demonstrating the package usage
+- `assets/`: Directory containing example images for documentation
 
 ## Dependencies
 The plugin relies on the following Rust crates:
