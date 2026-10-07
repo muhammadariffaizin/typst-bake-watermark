@@ -1,0 +1,1 @@
+#import "main.typ": bake-img

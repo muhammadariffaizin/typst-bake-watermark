@@ -1,8 +1,16 @@
 [package]
 name = "bake-watermark"
 version = "0.1.0"
-description = "A Typst plugin for watermarking images"
+description = "A Typst package for watermarking images"
+authors = ["Muhammad 'Arif Faizin <@muhammadariffaizin>"]
 license = "MIT"
-
-[plugin]
-path = "bake_watermark.wasm"
+repository = "https://github.com/muhammadariffaizin/typst-bake-watermark.git"
+entrypoint = "src/lib.typ"
+keywords = [
+  "image",
+  "watermark",
+  "bake",
+  "wasm",
+]
+categories = ["utility"]
+compiler = "0.15.0"
